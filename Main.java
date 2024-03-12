@@ -73,9 +73,9 @@ public class Main {
         System.out.println("Unique words: " + analyzer.getUniqueWords());
         System.out.println("Number of unique words: " + analyzer.getUniqueWordCount());
 
-        System.out.print("Enter a word to find its frequency: ");
+        System.out.print("Enter a word to find its number of spawns: ");
         word = scanner.nextLine();
-        System.out.println("Frequency of word \"" + word + "\": " + analyzer.getWordFrequency(word));
+        System.out.println("This word \"" + word + "\" got spawned " + analyzer.getWordFrequency(word) + " times.");
 
         System.out.println("Shortest word: " + analyzer.getShortestWord());
         System.out.println("Longest word: " + analyzer.getLongestWord());
